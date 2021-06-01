@@ -6,7 +6,7 @@
         require '../BDD/connexion.php';
         require '../BDD/content.php';
         $erreur="";
-        $succes= $lang['contact_p_envoie'];
+        $succes="Votre message a bien été envoyer";
         //Verification que les données soit saisies
         if((isset($_POST['submit'],$_POST['name'])) && empty($_POST['name'])) $erreur =  $lang['contact_p_name'];
         if((isset($_POST['submit'],$_POST['mail'])) && empty($_POST['mail']) && (filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL))) $erreur = $lang['contact_p_mail'];

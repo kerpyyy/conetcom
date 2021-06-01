@@ -4,7 +4,7 @@
 function initMap(){
     // Point de centrage de la map
     var options = {
-      zoom:7,
+      zoom:7.4,
       center:{lat:46.9,lng:8}
     }
 

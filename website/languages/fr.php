@@ -10,28 +10,23 @@ $lang=array(
     "five" => "Contact",
 
     // TEXTE DE LA PAGE ACCEUIL
-    "acceuil_image_p" => "Suspendisse accumsan turpis efficitur ante.",
+    "acceuil_h2_1" => "Bienvenue chez nous",
     "acceuil_h2" => "Qui sommes-nous?",
-    "acceuil_p1" => "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    "acceuil_p2" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sit amet consectetur adipisicing elit. Nulla, doloressit amet consectetur adipisicing elit. Nulla, doloressit amet consectetur adipisicing elit. Nulla, dolores.",
-    "acceuil_a1" => "Vestibulum semper faucibus sem sit amet tristique. Mauris lobortis euismod est in.",
 
     // TEXTE ABOUT PAGE ACCUEIL
-    "about_h3_1" => "Management de projet",
+    "about_h3_1" => "Fibre optique",
     "about_p1" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
-    "about_h3_2" => "Installation de câblages",
+    "about_h3_2" => "Courant faible",
     "about_p2" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
-    "about_h3_3" => "Installation électrique",
+    "about_h3_3" => "Courant fort",
     "about_p3" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
     "about_a" => "Voir plus",
 
     // TEXTE PAGE ABOUT
-    "about_accueil_h1" => "Ipsum lorem",
-    "about_accueil_p" => "Sed volutpat mattis tellus. Vivamus pharetra convallis sapien.",
-    "about_information_h2" => "Vivamus sed lectus.?",
+    "about_accueil_h1" => "Une équipe à votre service.",
     "about_information_p1" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repellendus.",
     "about_information_p2" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sit amet consectetur adipisicing elit. Nulla, doloressit amet consectetur adipisicing elit. Nulla, doloressit amet consectetur adipisicing elit. Nulla, doloreset consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, doloreet consectetur adipisicing elit. Nulla, dolore",
-    "about_metier_h2" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis.",
+    "about_metier_h2" => "Nos principales prestations.",
     "about_metier_h4_1" => "Planification & Gestion des projets",
     "about_metier_h4_2" => "Data Center Engineering",
     "about_metier_h4_3" => "Courant faible, Réseau informatique",
@@ -44,9 +39,9 @@ $lang=array(
     "about_metier_3_p2" => "<ul><li> - Installation complète dans l’environnement primaire, secondaire et tertiaire</li><li> - Installation dans le domaine de la fibre optique, du cuivre et Wireless</li><li> - Installation de composant Actif et passif LAN / WLAN</li><li> - Maintenance et amélioration de systèmes de télécommunication</li><li> - Partenaire Swisscom</li>",
     "about_metier_4_p2" => "<ul><li> - Installation électrique complète bâtiments industriels, commerciaux, bureautiques et domestiques</li><li>  - Installation de courant fort pour la télécommunication</li><li> - Construction et transformation de tableaux électriques</li><li> - Rénovation et mise en conformité d'installations électriques</li>",
     "about_metier_5_p2" => "<ul><li> - Qualité et analyse réseau dans le domaine fibre optique et cuivre</li><li> - Analyse de réseau et des protocoles, appropriés (Optiview GIG/PSVS)</li><li> - Mesure, test de continuité et puissance électrique</li><li> - Création et mise à jour de documentation et schémas électriques</li><li> - Partenaire Fluke</li>",
-    "partenaires_h2" => "Nos partenaires", 
-    "partenaires_1_p" => "Fusce feugiat luctus quam volutpat semper. In consequat neque id mauris iaculis tristique. Curabitur mattis.",
-    "partenaires_2_p" => "Maecenas blandit leo nec dapibus accumsan. Nunc consectetur libero libero, id fringilla metus congue a.",
+    "partenaires_h2" => "Nos principaux clients", 
+    "partenaires_1_p" => "<h4>Coop Romandie:</h4> tous les centres commerciaux & magasins: <br> étude & planification, installation & maintenance de l’ensemble des réseaux de télécommunication et électrique. <br> <h4>Coop Suisse:</h4>sur l’ensemble des centres commerciaux & magasins: <br> installation de divers projets, intervention & rénovation du câblage des réseaux de télécommunication : fibres optiques, cuivres & wireless.",
+    "partenaires_2_p" => "Etude & planification, installation & rénovation des réseaux de télécommunication : fibres optiques, cuivres & wireless.",
     "partenaires_3_p" => "Donec nisi ipsum, tincidunt in luctus id, tristique ac sapien. Vivamus vehicula odio dui, eu.",
     "partenaires_4_p" => "Mauris at orci vel leo lobortis consectetur ut et augue. Nulla facilisi. Nulla eu sem.",
     "about_siege_social" => "Siège social",
@@ -120,7 +115,7 @@ $lang=array(
     "contact_select_jobs2" => "Projet",
     "contact_select_choosejobs1" => "-- Choisissez un travail --",
     "contact_p_message" => "Veuillez entrer du texte",
-    "contact_p_envoie" => "Votre message a bien été envoyer",
+    "contact_p_envoie" => "Votre mail a bien été envoyé",
 
 
 

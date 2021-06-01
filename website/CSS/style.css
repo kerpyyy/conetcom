@@ -1,6 +1,6 @@
-                                /* *****************************************************************
-                                                            GLOBAL
-                                ***************************************************************** */
+/* *****************************************************************
+                            GLOBAL
+***************************************************************** */
 
 *  {
     box-sizing:border-box;
@@ -29,11 +29,16 @@ a{
     color:black;
 }
 
-                                /* *****************************************************************
-                                                            HEADER
-                                ***************************************************************** */
+.h4{
+    color: rgb(71, 66, 153);
+    padding: 0;
+}
 
-                                /* Optimisation de l'ouverture fermeture du bouton pour le menu nav. */
+/* *****************************************************************
+                            HEADER
+***************************************************************** */
+
+/* Optimisation de l'ouverture fermeture du bouton pour le menu nav. */
 
 #menu-button{
     position:absolute;
@@ -47,8 +52,9 @@ a{
     transition:all .5s;
     font-family: Arial;
     line-height: 45px; 
-}
+  }
   
+
 #menu-button::after{
     content:'×';
 }
@@ -73,7 +79,7 @@ a{
     display: flex;
     flex-direction: column;
     font-size: 4rem;
-    background-color: rgb(205, 26, 60, 0.8);
+    background-color: rgb(71, 66, 153, 0.8);
     padding: 40px;
     line-height: 35px;
     border: 2px solid rgb(71, 66, 153);
@@ -106,13 +112,13 @@ a{
     width:67%
 }
 
-.logo img{
-    width: 50%;
-}
-
 .trad{
     width: 33%;
     text-align:end
+}
+
+.logo img{
+    width: 50%;
 }
 
 .trad img:hover{
@@ -124,48 +130,38 @@ a{
 }
 
 
-                                /* *****************************************************************
-                                                            INDEX
-                                ***************************************************************** */
-
-                                
+/* *****************************************************************
+                            INDEX
+***************************************************************** */
+.liste{
+    padding: 20px;
+}
+ 
 .center{
     max-width: 90%;
     margin: 0 auto;
 }
 
 .main {
-	background: url(../images/ax2.png) no-repeat center center;
+	background: url(../images/garde.jpg) no-repeat center center;
 	background-size: cover;
 	height: 700px;
 }
 
-.main .textmain h1{
-    font-size: 6rem;
-    color: rgb(71, 66, 153);
-    text-align: center;
-}
-
-span{
-    color:rgb(205, 26, 60);
-}
-
-.textmain p{
-    font-size: 1.8rem;
-    padding-left: 20px;
-}
-
-main h2{
-    font-size: 2em;
+.de{
+    background: url(../images/cable.jpg) no-repeat center center;
 }
 
 article.information.center{
     padding: 150px 0px 150px 0px;
 }
 
+
 .photo_large{
     padding-bottom: 30px;
 }
+
+/* div */
 
 div .about,
 section{
@@ -182,22 +178,23 @@ section{
 	margin-bottom: 5px;
 }
 
-.about i {
-	color: #fff;
-	font-size: 75px;
-	background: rgb(71, 66, 153);
-	border-radius: 50%;
-	line-height: 175px;
+.about article img {
 	height: 175px;
-	width: 175px;
-    text-align: center;
-    
+	width: 300px;
+}
+
+.about h3{
+    color: rgb(71, 66, 153);
 }
 
 .about article{
     margin:auto;
     text-align: center; 
     padding-bottom: 80px;  
+}
+
+.about article a{
+    color: rgb(71, 66, 153);
 }
 
 .adress div{
@@ -211,17 +208,17 @@ section{
     line-height: 15px;
 }
 
-.adress div a{
-    color:rgb(71, 66, 153);
+.adress div a, .adress div p{
+    color: black;
 }
 
 .adress div:last-child{
     border:none;
 }
 
-                                /* *****************************************************************
-                                                        FOOTER
-                                ***************************************************************** */
+/* *****************************************************************
+                           FOOTER
+***************************************************************** */
 
 footer{
     display: flex;
@@ -236,9 +233,9 @@ footer .reseaux{
 }
 
 
-                                /* *****************************************************************
-                                                    CSS - ABOUT
-                                ***************************************************************** */
+/* *****************************************************************
+                    CSS - ABOUT
+***************************************************************** */
 
 main .qui_sommes_nous{
     background: url(../images/bureau.jpg) repeat center center;
@@ -273,6 +270,11 @@ main .qui_sommes_nous{
     margin-right: auto
 }
 
+.information h2{
+    color: rgb(71, 66, 153);
+    text-align: center;
+}
+
 /* Partie metier -------------- */
 
 .metier p, .metier h4{
@@ -288,6 +290,7 @@ main .qui_sommes_nous{
 .metier h4{
     margin-top: -10px;
     padding: 25px;
+    color: rgb(71, 66, 153);
 }
 
 .metier ul{
@@ -303,6 +306,7 @@ main .qui_sommes_nous{
 .metier h2{
     text-align: center;
     padding-bottom: 25px;
+    color: rgb(71, 66, 153);
 }
 
 
@@ -332,7 +336,7 @@ main .qui_sommes_nous{
 /* Partie partenaires -------------- */
 
 .partenaires img{
-    width: 150px;
+    width: 200px;
 }
 
 .partenaires h2{
@@ -368,10 +372,15 @@ section.partenaires.center{
     padding: 60px 0px;
 }
 
+.morePartner{
+    font-size: 1.5rem;
+    color: rgb(71, 66, 153);
+    padding-bottom: 40px;
+}
 
-                                /* *****************************************************************
-                                                            CSS - Job
-                                ***************************************************************** */
+/* *****************************************************************
+                            CSS - Job
+***************************************************************** */
 
 main .job{
     background: url(../images/metiers.jpg) repeat center center;
@@ -414,9 +423,9 @@ main .job{
     padding: 150px 0px 80px 0px;
 }
 
-                                /* *****************************************************************
-                                                PARTIE EMPLOIS ( DETAIL METIER ) 
-                                ***************************************************************** */
+/* *****************************************************************
+                  PARTIE EMPLOIS ( DETAIL METIER ) 
+***************************************************************** */
 
 .emplois{
     background: url(../images/contrat.jpg) repeat center center;
@@ -457,9 +466,9 @@ main .job{
 }
 
 
-                        /* *****************************************************************
-                                                CSS - LOCATION 
-                        ***************************************************************** */
+/* *****************************************************************
+                         CSS - LOCATION 
+***************************************************************** */
 
 .location{
     background: url(../images/lac.jpg) repeat center center;
@@ -467,20 +476,20 @@ main .job{
 	height: 700px;
 }
 
+h2{
+    color: rgb(71, 66, 153);
+}
+
 #map{
-    height:400px;
+    height:450px;
     width:95%;
     border: 2px solid rgb(71, 66, 153);
     margin: auto;
 }
 
-.liste{
-    padding: 20px;
-}
-
-                            /* *****************************************************************
-                                                    CSS - CONTACT
-                            ***************************************************************** */
+/* *****************************************************************
+                         CSS - CONTACT
+***************************************************************** */
 
 .formulaires{
 	max-width: 500px;
@@ -553,7 +562,6 @@ main .job{
 }
 
                                 /* *****************************************************************
-                                ********************************************************************
                                                         CSS - DESKTOP
                                 ***************************************************************** */
 
@@ -600,9 +608,9 @@ footer p{
     font-size: 1.5rem;
 }
 
-                        /* *****************************************************************
-                                                CSS - DESKTOP INDEX
-                        ***************************************************************** */
+/* *****************************************************************
+                         CSS - DESKTOP INDEX
+***************************************************************** */
 
 .main {
     height: 900px;
@@ -637,9 +645,9 @@ main h2{
     padding-bottom: 60px;
 }
 
-                        /* *****************************************************************
-                                                CSS - DESKTOP ABOUT
-                        ***************************************************************** */
+/* *****************************************************************
+                         CSS - DESKTOP ABOUT
+***************************************************************** */
 
 main .qui_sommes_nous{
 	height: 900px;
@@ -716,9 +724,9 @@ main .qui_sommes_nous{
     padding: 0 40px;
 }
 
-.partenaires h3{
+.partenaires .separation{
     border-bottom: 1px solid #000;
-    padding-bottom: 3px
+    margin-bottom: 60px;
 }
 
 .partenaires{
@@ -751,6 +759,10 @@ main .qui_sommes_nous{
     grid-area:a4;
 }
 
+.partenaires img:nth-of-type(3){
+    margin-top: 20px;
+}
+
 .phone{
     display: none;
 }
@@ -759,29 +771,34 @@ main .qui_sommes_nous{
     margin-bottom: 55px;
 }
 
-                                /* *****************************************************************
-                                                        CSS - DESKTOP LOCALISATION
-                                ***************************************************************** */
-
-.liste{
-    padding: 150px 40px;
+.right{
+    padding-bottom: 90px;
 }
+
+/* *****************************************************************
+                         CSS - DESKTOP LOCALISATION
+***************************************************************** */
 
 .liste h3{
     text-align: center;
 }
 
-                                /* *****************************************************************
-                                                        CSS - DESKTOP ADRESS
-                                ***************************************************************** */
+#map{
+    height:450px;
+    width:65%;
+}
+
+/* *****************************************************************
+                         CSS - DESKTOP ADRESS
+***************************************************************** */
 
 .adress{
     padding-top: 60px;
 }
 
-                                /* *****************************************************************
-                                                        CSS - DESKTOP JOB
-                                ***************************************************************** */
+/* *****************************************************************
+                         CSS - DESKTOP JOB
+***************************************************************** */
 
  main .job, 
  .emplois {
@@ -796,9 +813,9 @@ main .qui_sommes_nous{
 
 }
 
-                                /* *****************************************************************
-                                                        CSS - TABLETTE JOB
-                                ***************************************************************** */
+/* *****************************************************************
+                         CSS - TABLETTE JOB
+***************************************************************** */
 
 
 @media screen and (min-width: 680px){

@@ -1,7 +1,5 @@
 <?php
 
-// Connexion a la base de donnée
-
 function getConnection(): PDO
 {
     return new PDO(

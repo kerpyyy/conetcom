@@ -1,15 +1,19 @@
 <main class="container">
     <section class="main">
-        <div class="textmain">
-            <h1>conet<span>C</span>om</h1>
-            <p><?php echo $lang['acceuil_image_p']; ?></p>
-        </div>
     </section>
     <article class="information center">
+        <h2 data-aos="fade-down" data-aos-delay="350" data-aos-duration="1000"><?php echo $lang['acceuil_h2_1']; ?></h2>
         <h2 data-aos="fade-down" data-aos-delay="350" data-aos-duration="1000"><?php echo $lang['acceuil_h2']; ?></h2>
-        <p data-aos="fade-down" data-aos-delay="350" data-aos-duration="1000"><?php echo $lang['acceuil_p1']; ?></p>
-        <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"><?php echo $lang['acceuil_p2']; ?></p>
-        <a href="#" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"><?php echo $lang['acceuil_a1']; ?></a>
+        <article class="liste" data-aos="fade-down" data-aos-duration="2000">
+        <ul>
+            <li><?php echo $lang['localisation_li1']; ?></li>
+            <li><?php echo $lang['localisation_li2']; ?></li>
+            <li><?php echo $lang['localisation_li3']; ?></li>
+            <li><?php echo $lang['localisation_li4']; ?></li>
+            <li><?php echo $lang['localisation_li5']; ?></li>
+            <li><?php echo $lang['localisation_li6']; ?></li>
+        </ul>
+    </article>
     </article>
     <div data-aos="fade-down" data-aos-duration="2000">
         <img  class="photo_large" src="../images/lumiere_large.jpg" alt="lumiere bleu">
@@ -23,14 +27,14 @@
             <a href="about.php"><?php echo $lang['about_a']; ?></a>
         </article>
         <article>
-            <i class="far fa-lightbulb"></i>
+            <img src="../images/courantfort.jpg" alt="Courant faible">
             <h3><?php echo $lang['about_h3_2']; ?></h3>
             <div class="colored-line"></div>						
             <p><?php echo $lang['about_p2']; ?></p>
             <a href="about.php"><?php echo $lang['about_a']; ?></a>						
         </article>
         <article>
-            <i class="fa fa-newspaper-o"></i>
+            <img src="../images/courantfaible.jpg" alt="Courant fort">
             <h3><?php echo $lang['about_h3_3']; ?></h3>
             <div class="colored-line"></div>
             <p><?php echo $lang['about_p3']; ?></p>

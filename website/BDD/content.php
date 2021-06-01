@@ -1,8 +1,5 @@
 <?php
 
-
-
-// Function de sauvegarde pour la table users
 function saveUser(PDO $connection, array $data): void
 {
     $query = $connection->prepare
@@ -14,8 +11,6 @@ function saveUser(PDO $connection, array $data): void
     ]);
 }
 
-
-// Function de sauvegarde pour la table content
 function saveContent(PDO $connection, array $data): void
 {
     $query = $connection->prepare
