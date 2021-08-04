@@ -3,24 +3,29 @@
 $lang=array(
 
     // TEXTE DU MENU NAVIGATION
-    "one" => "Accueil",
-    "two" => "Information",
-    "three" => "Localisation",
+    "one" => "Home",
+    "two" => "Prestations",
     "four" => "Carrière",
     "five" => "Contact",
+    "six" => "Réalisations",
 
     // TEXTE DE LA PAGE ACCEUIL
     "acceuil_h2_1" => "Bienvenue chez nous",
     "acceuil_h2" => "Qui sommes-nous?",
+    "acceuil_h2_2" => "Nous remercions tous nos clients pour leur confiance !",
+    "acceuil_p1" => "Depuis la création de la société en 2000 par Markus Kilcher et Claude Sperissen,",
+    "acceuil_p2" => "conetCom est un interlocuteur unique pour vos projets d’installations de réseaux de télécommunication et électrique.",
+    "acceuil_p3" => "L’entreprise est un ensemble de personnes qualifiées et expérimentées dans les installations électrotechniques des bâtiments",
+    "acceuil_p4" => " à usage commercial, industriel, hôtelier, bancaire, bureautique et domestique.",
+    "acceuil_p5" => "Avec plus de 20 années d’existence, conetCom est devenu un partenaire très compétent dans les 3 domaines :",
+
 
     // TEXTE ABOUT PAGE ACCUEIL
     "about_h3_1" => "Fibre optique",
-    "about_p1" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
     "about_h3_2" => "Courant faible",
-    "about_p2" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
     "about_h3_3" => "Courant fort",
-    "about_p3" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus ut odio ultrices venenatis.",
     "about_a" => "Voir plus",
+    
 
     // TEXTE PAGE ABOUT
     "about_accueil_h1" => "Une équipe à votre service.",
@@ -29,32 +34,20 @@ $lang=array(
     "about_metier_h2" => "Nos principales prestations.",
     "about_metier_h4_1" => "Planification & Gestion des projets",
     "about_metier_h4_2" => "Data Center Engineering",
-    "about_metier_h4_3" => "Courant faible, Réseau informatique",
-    "about_metier_h4_4" => "Courant fort, Installation électrique",
-    "about_metier_h4_5" => "Assurance qualité & Documentation",
+    "about_metier_h4_3" => "Assurance qualité & Documentation",
+    "about_metier_h4_4" => "Fibre optique",
+    "about_metier_h4_5" => "Courant faible, Réseau informatique",
+    "about_metier_h4_6" => "Courant fort, Installation électrique",
     "about_metier_span" => "Voir plus",
     "about_metier_service" => "Nos services",
     "about_metier_1_p2" => "<ul><li> - Consultation et conseil</li><li> - Suivi financier</li><li> - Évaluation de produit</li><li> - Etude et planification</li><li> - Élaboration d’appel d’offre</li><li> - Suivi de projet</li>",
     "about_metier_2_p2" => "<ul><li> - Planification de Data Center</li><li> - LCP – Liquid Cooling Package</li><li> - LECS – Low Energy Cooling System</li><li> - LFFS – Lescom Fire Security System</li><li> - High Density Cabling Solutions</li><li> - Data Center Networks 'The new standard'</li>",
-    "about_metier_3_p2" => "<ul><li> - Installation complète dans l’environnement primaire, secondaire et tertiaire</li><li> - Installation dans le domaine de la fibre optique, du cuivre et Wireless</li><li> - Installation de composant Actif et passif LAN / WLAN</li><li> - Maintenance et amélioration de systèmes de télécommunication</li><li> - Partenaire Swisscom</li>",
-    "about_metier_4_p2" => "<ul><li> - Installation électrique complète bâtiments industriels, commerciaux, bureautiques et domestiques</li><li>  - Installation de courant fort pour la télécommunication</li><li> - Construction et transformation de tableaux électriques</li><li> - Rénovation et mise en conformité d'installations électriques</li>",
-    "about_metier_5_p2" => "<ul><li> - Qualité et analyse réseau dans le domaine fibre optique et cuivre</li><li> - Analyse de réseau et des protocoles, appropriés (Optiview GIG/PSVS)</li><li> - Mesure, test de continuité et puissance électrique</li><li> - Création et mise à jour de documentation et schémas électriques</li><li> - Partenaire Fluke</li>",
-    "partenaires_h2" => "Nos principaux clients", 
-    "partenaires_1_p" => "<h4>Coop Romandie:</h4> tous les centres commerciaux & magasins: <br> étude & planification, installation & maintenance de l’ensemble des réseaux de télécommunication et électrique. <br> <h4>Coop Suisse:</h4>sur l’ensemble des centres commerciaux & magasins: <br> installation de divers projets, intervention & rénovation du câblage des réseaux de télécommunication : fibres optiques, cuivres & wireless.",
-    "partenaires_2_p" => "Etude & planification, installation & rénovation des réseaux de télécommunication : fibres optiques, cuivres & wireless.",
-    "partenaires_3_p" => "Donec nisi ipsum, tincidunt in luctus id, tristique ac sapien. Vivamus vehicula odio dui, eu.",
-    "partenaires_4_p" => "Mauris at orci vel leo lobortis consectetur ut et augue. Nulla facilisi. Nulla eu sem.",
-    "about_siege_social" => "Siège social",
+    "about_metier_3_p2" => "<ul><li> - Qualité et analyse réseau dans le domaine fibre optique et cuivre</li><li> - Analyse de réseau et des protocoles, appropriés (Optiview GIG/PSVS)</li><li> - Mesure, test de continuité et puissance électrique</li><li> - Création et mise à jour de documentation et schémas électriques</li><li> - Partenaire Fluke</li>",
+    "about_metier_4_p2" => "",
+    "about_metier_5_p2" => "<ul><li> - Installation complète dans l’environnement primaire, secondaire et tertiaire</li><li> - Installation dans le domaine de la fibre optique, du cuivre et Wireless</li><li> - Installation de composant Actif et passif LAN / WLAN</li><li> - Maintenance et amélioration de systèmes de télécommunication</li><li> - Partenaire Swisscom</li>",
+    "about_metier_6_p2" => "<ul><li> - Installation électrique complète bâtiments industriels, commerciaux, bureautiques et domestiques</li><li>  - Installation de courant fort pour la télécommunication</li><li> - Construction et transformation de tableaux électriques</li><li> - Rénovation et mise en conformité d'installations électriques</li>",
+    
 
-    // TEXTE PAGE LOCALISATION
-    "localisation_p" => "Depuis sa création conetCom est :",
-    "localisation_li1" => "Un interlocuteur compétent avec une longue expérience.",
-    "localisation_li2" => "Un partenaire unique pour vos projets d’installations de réseaux de télécommunication et électrique.",
-    "localisation_li3" => "Un coéquipier attentif qui mise sur les technologies de demain.",
-    "localisation_li4" => "Un concepteur neutre et indépendant de tout constructeur.",
-    "localisation_li5" => "Un ensemble de personnes qualifiées et expérimentées à votre disposition.",
-    "localisation_li6" => "Une garantie Know-how, qualité, flexibilité et fiabilité.",
-    "localisation_h2" => "Nos différentes positions",
 
     // TEXTE PAGE JOB
     "information_h2" => "Envie de nous rejoindre?",
@@ -116,6 +109,8 @@ $lang=array(
     "contact_select_choosejobs1" => "-- Choisissez un travail --",
     "contact_p_message" => "Veuillez entrer du texte",
     "contact_p_envoie" => "Votre mail a bien été envoyé",
+    "contact_p_envoyer" => "Envoyer",
+    "localisation_h2" => "Nos différentes positions",
 
 
 

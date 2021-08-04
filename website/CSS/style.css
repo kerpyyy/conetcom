@@ -11,13 +11,9 @@ html {
 body {
     font-size:1.6rem;
     margin:0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.3px;
     line-height: 26px;
-}
-
-h1,h2,h3,h4{
-    font-family: 'Ubuntu', sans-serif;
 }
 
 img {
@@ -29,10 +25,22 @@ a{
     color:black;
 }
 
-.h4{
+h2,h4{
     color: rgb(71, 66, 153);
     padding: 0;
 }
+
+.text_align{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.img_centre{
+    text-align: center;
+    padding-top: 60px;
+}
+
+
 
 /* *****************************************************************
                             HEADER
@@ -83,6 +91,7 @@ a{
     padding: 40px;
     line-height: 35px;
     border: 2px solid rgb(71, 66, 153);
+    border-radius: 100px;
 }
 
 #menu a{
@@ -98,67 +107,94 @@ a{
 
 .header{
     display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
     align-items: center;
     border-bottom: 2.5px solid rgb(71, 66, 153);
-    padding:20px;
+    padding:10px;
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 99;
+    z-index: 98;
 }
 
-.logo{
-    text-align: end;
-    width:67%
+.header img{
+    display: block;
+    height:100%;
 }
 
 .trad{
-    width: 33%;
-    text-align:end
-}
-
-.logo img{
+    display: flex;
     width: 50%;
 }
 
-.trad img:hover{
-    transform: scale(1.1) rotate(20deg);
+.trad a{
+    width: 35px;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid rgb(71, 66, 153);
+    border-radius: 100px;
+    padding: 3px;
+    color: rgb(71, 66, 153);
+    text-decoration: none;
 }
 
-.trad img{
-    width: 22%;
+.conetcom{
+    text-align: center;
+    width: 100%;
+}
+
+.conetcom img{
+    width: 50%;
+    margin: unset;
 }
 
 
 /* *****************************************************************
                             INDEX
 ***************************************************************** */
-.liste{
-    padding: 20px;
+
+
+.slides li{
+    position: relative;
+    text-align: center;
 }
+
+.slides p{
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
  
 .center{
     max-width: 90%;
     margin: 0 auto;
 }
 
-.main {
-	background: url(../images/garde.jpg) no-repeat center center;
-	background-size: cover;
-	height: 700px;
+div.information.center{
+    padding: 10px 0px 20px 0px;
 }
 
-.de{
-    background: url(../images/cable.jpg) no-repeat center center;
+.information p{
+    font-size: 1.8rem;
+    text-align: center;
 }
 
-article.information.center{
-    padding: 150px 0px 150px 0px;
+.information h2:first-child{
+    font-size: 2em;
+    padding-bottom: 25px;
+    line-height: 50px;
 }
 
-
-.photo_large{
-    padding-bottom: 30px;
+.autoplay img{
+    width: 50%;
 }
 
 /* div */
@@ -181,6 +217,7 @@ section{
 .about article img {
 	height: 175px;
 	width: 300px;
+    padding-bottom: 20px;
 }
 
 .about h3{
@@ -188,13 +225,23 @@ section{
 }
 
 .about article{
-    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center; 
     padding-bottom: 80px;  
 }
 
 .about article a{
     color: rgb(71, 66, 153);
+}
+
+.h2_partenaire{
+    padding-left: 100px;
+}
+
+.adress{
+    width: 100%;
 }
 
 .adress div{
@@ -205,7 +252,9 @@ section{
     padding-bottom:20px;
     width:35%;
     margin: auto;
-    line-height: 15px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    
 }
 
 .adress div a, .adress div p{
@@ -215,6 +264,12 @@ section{
 .adress div:last-child{
     border:none;
 }
+
+.adress div:first-child{
+    border-top: 2px dashed rgb(71, 66, 153);
+    padding-top: 15px;
+}
+
 
 /* *****************************************************************
                            FOOTER
@@ -251,6 +306,7 @@ main .qui_sommes_nous{
     font-size: 4rem;
     color: rgb(71, 66, 153);
     text-align: center;
+    line-height: 50px;
 }
 
 .texte_accueil p{
@@ -314,7 +370,6 @@ main .qui_sommes_nous{
     padding-bottom: 40px;
 }
 
-
 .hide{
     display: none;
 }
@@ -323,7 +378,7 @@ main .qui_sommes_nous{
     display: block;
 }
 
-#p1, #p2, #p3, #p4, #p5{
+#p1, #p2, #p3, #p4, #p5, #p6{
     margin-top: -18px;
     padding:5px;
     border-left:2px solid rgb(71, 66, 153);
@@ -333,50 +388,20 @@ main .qui_sommes_nous{
     border-bottom-right-radius: 30px;
 }
 
-/* Partie partenaires -------------- */
-
-.partenaires img{
-    width: 200px;
+.autoplay{
+    border-top:  2px solid rgb(71, 66, 153);;
 }
 
-.partenaires h2{
-    text-align: center;
-    border: 3px solid rgb(71, 66, 153);
-    padding: 10px;
-    border-block-width: 10px;
+.autoplay img{
+    width: 100%;
+    padding:0 10px;
 }
 
-.partenaires h3{
-    text-align: center;
-    font-size: 2rem;
+.autoplay{
+    padding: 50px 25px;
 }
 
-.partenaires p{
-    display: flex;
-}
 
-.partenaires {
-    padding: 10px 0;
-}
-
-.left{
-    float: left;
-    margin: 15px;
-}
-
-.right{
-    float: right;
-}
-
-section.partenaires.center{
-    padding: 60px 0px;
-}
-
-.morePartner{
-    font-size: 1.5rem;
-    color: rgb(71, 66, 153);
-    padding-bottom: 40px;
-}
 
 /* *****************************************************************
                             CSS - Job
@@ -467,27 +492,6 @@ main .job{
 
 
 /* *****************************************************************
-                         CSS - LOCATION 
-***************************************************************** */
-
-.location{
-    background: url(../images/lac.jpg) repeat center center;
-	background-size: cover;
-	height: 700px;
-}
-
-h2{
-    color: rgb(71, 66, 153);
-}
-
-#map{
-    height:450px;
-    width:95%;
-    border: 2px solid rgb(71, 66, 153);
-    margin: auto;
-}
-
-/* *****************************************************************
                          CSS - CONTACT
 ***************************************************************** */
 
@@ -559,6 +563,15 @@ h2{
 
 .photo_bureau{
     padding: 60px 0 60px 0;
+    width: 100%;
+    height: 500px;
+}
+
+#map{
+    height:450px;
+    width:95%;
+    border: 2px solid rgb(71, 66, 153);
+    margin: auto;
 }
 
                                 /* *****************************************************************
@@ -585,25 +598,6 @@ body{
     margin: auto;
 }
 
-
-.logo{
-    text-align: end;
-    width:57%
-}
-
-.trad{
-    width: 43%;
-    text-align:end
-}
-
-.logo img{
-    width: 25%;
-}
-
-.trad img{
-    width: 6%;
-}
-
 footer p{
     font-size: 1.5rem;
 }
@@ -612,9 +606,37 @@ footer p{
                          CSS - DESKTOP INDEX
 ***************************************************************** */
 
-.main {
-    height: 900px;
+.trad a{
+    width: 40px;
 }
+
+.header{
+    padding: 20px;
+}
+
+.conetcom{ 
+    text-align: center;
+    width: 82%;
+}
+
+.conetcom img{
+    width: 40%;
+    margin: unset;
+}
+
+.slides li{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.slides p{
+    font-size: 5rem;
+    top: 40%;
+    left: 50%;
+}
+
+
 
 .textmain p{
     font-size: 1.8rem;
@@ -630,7 +652,7 @@ main h2{
 }
 
 .about article{
-    padding: 200px 0 200px 0;
+    padding: 50px 0 50px 0;
     width: 30%;
 }
 
@@ -638,19 +660,31 @@ main h2{
     display: flex;
     border: none;
     font-size: 1.6rem;
+    max-width: 100%;
+    margin-bottom: -29px;
 }
 
 .adress div{
+    color: rgb(71, 66, 153);
     border-bottom: none;
     padding-bottom: 60px;
+}
+
+.adress div p, .adress div a{
+    color: black;
+}
+
+.adress div:first-child{
+    border-top: none;
+    padding-top: 15px;
 }
 
 /* *****************************************************************
                          CSS - DESKTOP ABOUT
 ***************************************************************** */
 
-main .qui_sommes_nous{
-	height: 900px;
+.about{
+    justify-content: center;
 }
 
 .information img{
@@ -701,87 +735,25 @@ main .qui_sommes_nous{
     margin-top: -30px;
 }
 
-#p1, #p2, #p3, #p4, #p5{
+#p1, #p2, #p3, #p4, #p5, #p6{
     margin-top: -20px;
-}
-
-.photo_large{
-    width: 100%;
-    height:400px
-}
-
-.mains{
-    height: 450px;
-}
-
-.partenaires img{
-    width: 50%;
-    float: none;
-}
-
-.partenaires article{
-    text-align: center;
-    padding: 0 40px;
-}
-
-.partenaires .separation{
-    border-bottom: 1px solid #000;
-    margin-bottom: 60px;
-}
-
-.partenaires{
-    display:grid;
-    grid-template-areas:"h  h"
-                        "a1 a2"
-                        "a3 a3";
-
-    grid-template-columns:1fr 1fr;
-    gap:20px;
-}
-
-.partenaires h2 {
-    grid-area:h;
-}
-
-.partenaires div:first-of-type {
-    grid-area:a1;
-}
-
-.partenaires div:nth-of-type(2) {
-    grid-area:a2;
-}
-
-.partenaires div:nth-of-type(3) {
-    grid-area:a3;
-}
-
-.partenaires div:nth-of-type(4) {
-    grid-area:a4;
-}
-
-.partenaires img:nth-of-type(3){
-    margin-top: 20px;
 }
 
 .phone{
     display: none;
 }
 
-.left{
-    margin-bottom: 55px;
+.autoplay img{
+    width: 80%;
 }
 
-.right{
-    padding-bottom: 90px;
+.autoplay{
+    padding: 100px 50px 50px 50px;
 }
 
 /* *****************************************************************
                          CSS - DESKTOP LOCALISATION
 ***************************************************************** */
-
-.liste h3{
-    text-align: center;
-}
 
 #map{
     height:450px;
@@ -793,7 +765,8 @@ main .qui_sommes_nous{
 ***************************************************************** */
 
 .adress{
-    padding-top: 60px;
+    padding-top: 30px;
+    border-top: 2px solid rgb(71, 66, 153);
 }
 
 /* *****************************************************************
@@ -820,6 +793,10 @@ main .qui_sommes_nous{
 
 @media screen and (min-width: 680px){
 
+body{
+    font-size: 1.8rem;
+}
+
 .metier img{
     width: 100%;
 }
@@ -828,34 +805,42 @@ main .qui_sommes_nous{
     padding: 0 20px 80px 20px ;
 }
 
-.metier{
-    display:grid;
-    grid-template-areas:" h h h"
-                        "a1 a2 a3";
+/* *****************************************************************
+                         CSS - MENU BURGER
+***************************************************************** */
 
-    grid-template-columns:1fr 1fr 1fr;
-    gap:20px;
+
+@media screen and (min-width: 1340px){
+
+#menu-button{
+    color: white;
+}
+#menu-button.close{
+    background-color:white;
 }
 
-.metier h2 {
-    grid-area: h;
-    text-align: center;
+#menu{
+    transform:translateY(0px);
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    background-color: white;
+    padding: 20px;
+    line-height: 35px;
+    border: white;
 }
 
-.metier div:first-of-type {
-    grid-area:a1;
+#menu a{
+    color: rgb(71, 66, 153);
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.metier div:nth-of-type(2) {
-    grid-area:a2;
+#menu.show-menu{
+    transform:none;
 }
 
-.metier div:nth-of-type(3) {
-    grid-area:a3;
 }
-
-.metier .service h4{
-    display: block;
-}
-
 }

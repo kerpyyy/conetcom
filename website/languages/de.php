@@ -3,15 +3,21 @@
 $lang=array(
 
     // TEXTE MENU NAVIGATION
-    "one" => "Empfang",
+    "one" => "Home",
     "two" => "Information",
-    "three" => "Lokalisierung",
     "four" => "Karriere",
     "five" => "Kontakt",
+    "six" => "Leistungen",
 
     // TEXTE DE LA PAGE ACCUEIL
     "acceuil_h2_1" => "Wilkommen bei conetCom",
     "acceuil_h2" => "Wer sind wir?",
+    "acceuil_h2_2" => "Wir danken allen unseren Kunden für ihr Vertrauen!",
+    "acceuil_p1" => "Seit der Gründung des Unternehmens im Jahr 2000 durch Markus Kilcher und Claude Sperissen,",
+    "acceuil_p2" => "conetCom ist ein einzigartiger Ansprechpartner für Ihre Projekte für Telekommunikations- und Stromnetzanlagen.",
+    "acceuil_p3" => "Das Unternehmen ist eine Gruppe von qualifizierten und erfahrenen Personen in den elektrotechnischen Anlagen der Gebäude",
+    "acceuil_p4" => " In Handel, Industrie, Hotel, Bank, Büroautomation und Haushalt.",
+    "acceuil_p5" => "Mit mehr als 20 Jahren ist conetCom zu einem sehr kompetenten Partner in allen drei Bereichen geworden:",
 
     // TEXTE ABOUT PAGE ACCUEIL
     "about_h3_1" => "Fiber-Optik",
@@ -21,6 +27,7 @@ $lang=array(
     "about_h3_3" => "Starkstrom",
     "about_p3" => "Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.",
     "about_a" => "Mehr sehen",
+
 
     // TEXTE PAGE ABOUT
     "about_accueil_h1" => "Ein Team zu Ihren Diensten",
@@ -35,28 +42,15 @@ $lang=array(
     "about_metier_h4_3" => "Schwachstrom, Kommunication",
     "about_metier_h4_4" => "Starkstrom, Elektrotechnik",
     "about_metier_h4_5" => "Qualitätssicherung & Dokumentation",
+    "about_metier_h4_6" => "Fiber Optik",
+    "partenaires_h2" => "Unsere wichtigsten Kunden", 
     "about_metier_1_p2" => "<ul><li> - Konzept</li><li> - Vorstudien</li><li> - Produkte Evaluation</li><li> - Projekt- und Fachbauleitung</li><li> - Projektmanagement</li>",
     "about_metier_2_p2" => "<ul><li> - Architekturberatung und -design</li><li> - Energieversorgung</li><li> - Klimatisierung (LCP, LECS)</li><li> - 19&quot; Systeme</li><li> - Rechenzentrumsverkabelung mit höherer Dichte</li>",
-    "about_metier_3_p2" => "<ul><li> - Strukturierte Datenverkabelung im Primär- , Sekundär- und Tertiärbereich</li><li> - Lichtwellenleiter-, Kupfer-, Koaxial- und drantlose Netzwerke</li><li> - Netzwerkservice</li><li>Telefon- und Internetanschlüsse Gebäudekommunikation</li><li> - Swisscom Partner</li>",
-    "about_metier_4_p2" => "<ul><li> - Elektroinstallationen für Büro- und Verwaltungsgebäude</li><li> - Elektroinstallationen im Bereich Service und Ladenbau</li><li> - Beleuchtungssanierungen</li><li> - Schaltanlagen Service & Umbau</li><li> - Elektrosanierungen nach Niederspannungs- Installations- Norm (NIN)</li>",
-    "about_metier_5_p2" => "<ul><li> - Testen und Zertifizieren von Kupfer und Glasfaserkabelsystemen</li><li> - Netzwerk- und Protokollanalysen (Fluke Optiview GIG/PSVS)</li><li> - Elektro-Kontrollen und Sicherheitsprüfungen</li><li> - CAD-Anlagedokumentation und Revisionspläne</li><li> - Wartung und Support (7/24)</li><li> - Fluke Partner</li>",
-    "partenaires_h2" => "Unsere wichtigsten Kunden", 
-    "partenaires_1_p" => "<h4>Coop Romandie:</h4> Alle Verkaufsstellen in der Romandie (Supermärkte und Megastores) <br> Beratung, Planung und Realisation ganzheitlicher Installationen für Neubauten, Umbauten, Sanierungen und Erweiterungen im Bereich Stark- und Schwachstrom. <br> <h4>Coop Schweiz AG:</h4> Allgemeine Verkaufsstellen in der Schweiz <br>Spezifische Projekte von Lichtwellenleiter-, Kupfer-, Koaxial- und drahtlose Netzwerken.",
-    "partenaires_2_p" => "Beratung, Planung und Realisation von Lichtwellenleiter-, Kupfer-, Koaxial- und drahtlose Netzwerken.",
-    "partenaires_3_p" => "Donec nisi ipsum, tincidunt in luctus id, tristique ac sapien. Vivamus vehicula odio dui, eu.",
-    "partenaires_4_p" => "Mauris at orci vel leo lobortis consectetur ut et augue. Nulla facilisi. Nulla eu sem.",
-    "about_siege_social" => "Firmensitz",
-
-    // TEXTE PAGE LOCALISATION
-    "localisation_p" => "conetCom – Ihr Partner für technisch innovativ auf Sie abgestimmte Lösungen",
-    "localisation_li1" => "National tätiges Dienstleistungsunternehmen.",
-    "localisation_li2" => "Planung, Beratung und Ausführung in der anwendungsbezogenen Elektrotechnik.",
-    "localisation_li3" => "kompetenter Ansprechpartner mit langjähriger Erfahrung.",
-    "localisation_li4" => "Öffnet Ihnen die Türen in die Kommunikation von morgen.",
-    "localisation_li5" => "Know-how, Qualität, Flexibilität und Zuverlässigkeit .",
-    "localisation_li6" => "erfahrenes Team im Einklang mit Weiterbildung und Unternehmenserfolg.",
-    "localisation_h2" => "Unsere verschiedenen Positionen",
-
+    "about_metier_3_p2" => "<ul><li> - Testen und Zertifizieren von Kupfer und Glasfaserkabelsystemen</li><li> - Netzwerk- und Protokollanalysen (Fluke Optiview GIG/PSVS)</li><li> - Elektro-Kontrollen und Sicherheitsprüfungen</li><li> - CAD-Anlagedokumentation und Revisionspläne</li><li> - Wartung und Support (7/24)</li><li> - Fluke Partner</li>",
+    "about_metier_4_p2" => "",
+    "about_metier_5_p2" => "<ul><li> - Strukturierte Datenverkabelung im Primär- , Sekundär- und Tertiärbereich</li><li> - Lichtwellenleiter-, Kupfer-, Koaxial- und drantlose Netzwerke</li><li> - Netzwerkservice</li><li>Telefon- und Internetanschlüsse Gebäudekommunikation</li><li> - Swisscom Partner</li>",
+    "about_metier_6_p2" => "<ul><li> - Elektroinstallationen für Büro- und Verwaltungsgebäude</li><li> - Elektroinstallationen im Bereich Service und Ladenbau</li><li> - Beleuchtungssanierungen</li><li> - Schaltanlagen Service & Umbau</li><li> - Elektrosanierungen nach Niederspannungs- Installations- Norm (NIN)</li>",
+    
     // TEXTE PAGE JOB
     "information_h2" => "Wollen sie uns anschließen?",
     "information_p1" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac.",
@@ -117,6 +111,7 @@ $lang=array(
     "contact_select_choosejobs1" => "-- Wählen Sie ein Jobs --",
     "contact_p_message" => "Bitte schreiben Sie Ihrne Nachricht ein",
     "contact_p_envoie" => "Ihre E-Mail wurde verschickt",
+    "contact_p_envoyer" => "Senden",
 );
 
 ?>
